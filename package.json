@@ -8,8 +8,8 @@
     "develop:frontend": "wait-on http://127.0.0.1:1337/ && yarn --cwd frontend develop",
     "develop": "npm-run-all -l -p develop:*",
     "lint": "yarn --cwd frontend lint && yarn --cwd backend lint",
-    "postinstall": "husky install", 
-    "commit": "git-cz", 
+    "postinstall": "husky install",
+    "commit": "git-cz",
     "tsc": "yarn --cwd frontend tsc && yarn --cwd backend tsc"
   },
   "config": {
