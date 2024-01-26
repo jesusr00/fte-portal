@@ -1,10 +1,13 @@
-import React from "react";
-import useGetDirectionCouncil from "./hooks/useGetDirectionCouncil";
+import React from 'react'
+import useGetDirectionCouncil from './hooks/useGetDirectionCouncil'
+import { Typography } from '@mui/material'
 
-export const DirectionCouncil: React.FC = () => {
-  const { data, error, isLoading } = useGetDirectionCouncil();
+const DirectionCouncil: React.FC = () => {
+  const { data, error, isLoading } = useGetDirectionCouncil()
 
-  console.log(data, error, isLoading);
+  console.log(data, error, isLoading)
 
-  return <div>DirectionCouncil</div>;
-};
+  return <Typography>DirectionCouncil</Typography>
+}
+
+export default DirectionCouncil
