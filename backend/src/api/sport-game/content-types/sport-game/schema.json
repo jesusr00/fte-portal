@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "sport_games",
+  "info": {
+    "singularName": "sport-game",
+    "pluralName": "sport-games",
+    "displayName": "SportGame"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

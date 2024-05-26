@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "extensions_projects",
+  "info": {
+    "singularName": "extension-projects",
+    "pluralName": "extensions-projects",
+    "displayName": "ExtensionProjects",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "projects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "commons.extension-project"
+    }
+  }
+}

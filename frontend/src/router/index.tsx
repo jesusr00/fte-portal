@@ -3,6 +3,7 @@ import BaseLayout from '../common/layouts/BaseLayout'
 import { lazy } from 'react'
 
 const DirectionCouncil = lazy(() => import('../modules/direction-council'))
+const Mission = lazy(() => import('../modules/mission'))
 
 const router = createBrowserRouter([
   {
@@ -12,6 +13,14 @@ const router = createBrowserRouter([
       {
         path: '',
         element: <DirectionCouncil />,
+      },
+      {
+        path: 'direction-council',
+        element: <DirectionCouncil />,
+      },
+      {
+        path: 'mission',
+        element: <Mission />,
       },
     ],
   },

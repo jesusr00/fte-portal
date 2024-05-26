@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "teaching_faculties",
+  "info": {
+    "singularName": "teaching-faculty",
+    "pluralName": "teaching-faculties",
+    "displayName": "TeachingFaculty"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "membrs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "commons.teaching-faculty-member"
+    }
+  }
+}

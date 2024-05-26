@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_commons_postgrade_course_owners",
+  "info": {
+    "displayName": "PostgradeCourseOwner"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "email": {
+      "type": "email"
+    },
+    "degree": {
+      "type": "string"
+    }
+  }
+}

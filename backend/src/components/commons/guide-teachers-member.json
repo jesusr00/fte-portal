@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_commons_guide_teachers_members",
+  "info": {
+    "displayName": "GuideTeachersMember"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "iamge": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "group": {
+      "type": "string"
+    }
+  }
+}

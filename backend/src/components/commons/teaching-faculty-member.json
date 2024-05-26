@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_commons_teaching_faculty_members",
+  "info": {
+    "displayName": "TeachingFacultyMember",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "mane": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "position": {
+      "type": "string"
+    },
+    "area": {
+      "type": "string"
+    }
+  }
+}

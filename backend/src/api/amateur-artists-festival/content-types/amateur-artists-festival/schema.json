@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "amateur_artists_festivals",
+  "info": {
+    "singularName": "amateur-artists-festival",
+    "pluralName": "amateur-artists-festivals",
+    "displayName": "AmateurArtistsFestival"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

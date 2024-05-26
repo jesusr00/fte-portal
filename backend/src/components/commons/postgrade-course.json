@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_commons_postgrade_courses",
+  "info": {
+    "displayName": "PostgradeCourse",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "topic": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "owner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "commons.postgrade-course-owner"
+    }
+  }
+}

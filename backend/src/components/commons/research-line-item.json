@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_commons_research_line_items",
+  "info": {
+    "displayName": "ResearchLineItem"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "responsible": {
+      "type": "string"
+    },
+    "responsibleEmail": {
+      "type": "email"
+    },
+    "responsibleImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

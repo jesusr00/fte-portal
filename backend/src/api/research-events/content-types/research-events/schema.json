@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "researchs_events",
+  "info": {
+    "singularName": "research-events",
+    "pluralName": "researchs-events",
+    "displayName": "ResearchEvents"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "events": {
+      "type": "component",
+      "repeatable": true,
+      "component": "commons.research-event"
+    }
+  }
+}

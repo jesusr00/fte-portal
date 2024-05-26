@@ -24,6 +24,12 @@
         "videos",
         "audios"
       ]
+    },
+    "degree": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
     }
   }
 }

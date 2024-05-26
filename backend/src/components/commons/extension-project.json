@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_commons_extension_projects",
+  "info": {
+    "displayName": "ExtensionProject",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "topic": {
+      "type": "text"
+    },
+    "owner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "commons.postgrade-course-owner"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_commons_research_events",
+  "info": {
+    "displayName": "ResearchEvent"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "venue": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "owner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "commons.postgrade-course-owner"
+    },
+    "startDate": {
+      "type": "date"
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "topic": {
+      "type": "string"
+    }
+  }
+}
